@@ -3,7 +3,7 @@ name: Pull Request Check
 on: pull_request
 
 jobs:
-  check:
+  check-code:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
